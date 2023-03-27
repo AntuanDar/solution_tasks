@@ -4,7 +4,7 @@
 
 import java.util.Scanner;
 
-public class Count_Text {
+public class CountText {
 
     public static void main(String[] args) {
 

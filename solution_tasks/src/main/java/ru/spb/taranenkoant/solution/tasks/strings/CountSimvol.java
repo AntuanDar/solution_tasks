@@ -5,7 +5,7 @@ package ru.spb.taranenkoant.solution.tasks.strings;
 
 import java.util.Scanner;
 
-class Count_Simvol
+class CountSimvol
 {
     private static int countOccurrences(String str, char ch) {
         int counter = 0;
