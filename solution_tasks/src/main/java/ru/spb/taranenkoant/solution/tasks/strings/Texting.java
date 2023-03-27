@@ -1,6 +1,6 @@
 //Сгенировать случайную строку заданой длины
 
-package solution_tasks.src.main.java.ru.spb.taranenkoant.solution.tasks.strings;// генерация строки заданной длины
+package ru.spb.taranenkoant.solution.tasks.strings;// генерация строки заданной длины
 
 import java.nio.charset.Charset;
 import java.util.Random;
