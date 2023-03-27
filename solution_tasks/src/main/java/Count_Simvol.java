@@ -1,5 +1,7 @@
 
  //  К-во символов протатип -пока на символ А
+ //используя цикл for, и для каждого встречающегося символа увеличивайте счетчик
+ // (начиная с 0), если он совпадает с данным символом.
 
 import java.util.Scanner;
 
@@ -26,6 +28,6 @@ class Count_Simvol
         //String str = "ABAACBDD";
         char ch = 'A';
 
-        System.out.println(" Результат" + ch + " символов " + countOccurrences(input, ch) + " times.");
+        System.out.println(" Результат  " + ch + " символов " + countOccurrences(input, ch) + " times.");
     }
 }
