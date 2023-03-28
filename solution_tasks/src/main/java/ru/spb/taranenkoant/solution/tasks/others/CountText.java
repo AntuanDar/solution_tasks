@@ -1,4 +1,4 @@
-
+package ru.spb.taranenkoant.solution.tasks.others;
 //Пример взят из интернетов но я его чуть доработал.
 //Добавил алгоритм подчета запятых
 
