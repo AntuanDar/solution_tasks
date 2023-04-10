@@ -1,4 +1,4 @@
-package ru.spb.taranenkoant.solution.tasks.others;
+package ru.spb.taranenkoant.solution.tasks.strings;
 
 
 // Посчитать количество строк в тексте
