@@ -50,13 +50,12 @@ public class CountString {
 
         // String str = "День и ночь а делаю домашку";
         String str = "День и ночь а делаю домашку";
-        String[] words = str.split("\\s");//splits the string based on whitespace
+        String[] words = str.split("\\s"); //splits the string based on whitespace
 
 
-            System.out.println("Количество строк " +(words.length));
-        }
+        System.out.println("Количество строк " + (words.length));
     }
-
+}
         /**
         Вроде теперь количество строк верно считает. Правка от 24.04.2023г.
         * */
