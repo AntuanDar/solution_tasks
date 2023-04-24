@@ -17,8 +17,8 @@ public class reverse_string2 {
          *
          * сам код вроде работает правильно
          * */
-        for (int i = words.length - 1; i >= 0; i--) newStr.append(words[i]).append(" ");
-        System.out.println(newStr);
+            for (int i = words.length - 1; i >= 0; i--) newStr.append(words[i]).append(" ");
+             System.out.println(newStr);
     }
 
 }

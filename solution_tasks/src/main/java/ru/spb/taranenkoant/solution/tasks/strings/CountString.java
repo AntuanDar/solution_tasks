@@ -9,21 +9,17 @@ package ru.spb.taranenkoant.solution.tasks.strings;
  * */
 
 // Посчитать количество строк в тексте
-public class Count_String {
+/**public class CountString {
 
-    public static void main(String[] args) {
+    public static <Count_String> void main(String[] args) {
         String day = "День и ночь а делаю домашку";
-        // String dayAndNight = day + " " + and + " " + night;
-        //System.out.println(day + " " + and + " " + night );
+        String[] day = str.split(" ");
 
-        /**
-         * Зачем здесь переменная chCount?
-         * i - же выполняет функцию счетчика
-         * */
-        int chCount = 0;
-        for(int i = 0; i < day.length(); i++) {
-            chCount ++;
-            System.out.println("К-во строк: " + chCount);
+
+        //int chCount = 0;
+        for (int i = 0; i < day.length(); i++) {
+            i++;
+            System.out.println("К-во строк: " + i);
         }
 
         /**
@@ -32,20 +28,36 @@ public class Count_String {
          * получилось
          * */
 
+import java.util.Arrays;
+
+import static jdk.internal.org.jline.utils.InfoCmp.Capability.lines;
+
+/**
         Count_String count_string = new Count_String();
-        int lines = count_string.countLines("Здесь наш текст " +
-                "Много строчный " +
-                "Строки которого мы и должны посчитать");
+        int lines = count_string.clone();
         System.out.println(lines);
     }
+    * */
 
 
-    public int countLines(String text) {
+public class CountString {
+    public static void main(String[] args) {
         /**
          * Напиши решение здесь
          * сначала разбей текст на отдельные строки у класса String есть такой метод найди его
          * Дальше просто считаешь сколько получилось строк
          * */
-        return 0;
+
+        // String str = "День и ночь а делаю домашку";
+        String str = "День и ночь а делаю домашку";
+        String[] words = str.split("\\s");//splits the string based on whitespace
+
+
+            System.out.println("Количество строк " +(words.length));
+        }
     }
-}
+
+        /**
+        Вроде теперь количество строк верно считает. Правка от 24.04.2023г.
+        * */
+
