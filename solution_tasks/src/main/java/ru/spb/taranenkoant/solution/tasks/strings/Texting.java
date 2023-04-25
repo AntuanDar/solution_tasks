@@ -30,4 +30,3 @@ class Texting
         System.out.println(generatedString);
     }
 }
-

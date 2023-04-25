@@ -2,10 +2,7 @@ package ru.spb.taranenkoant.solution.tasks.strings;
 
 import java.util.Scanner;
 
-
-//Проверка что введенное слово палиндром версия сырая 25.04.2023
-//Будет доработана
-public class palindrom
+public class PolinStr
 {
     public static void main(String[] args) {
 
