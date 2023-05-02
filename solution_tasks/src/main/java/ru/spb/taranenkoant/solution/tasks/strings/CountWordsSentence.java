@@ -15,6 +15,8 @@ import java.util.List;
 
 /**
  * Подсчет к-ва слов в введенном тексте
+ *
+ * тут вроде все верно
  */
 public class CountWordsSentence {
 

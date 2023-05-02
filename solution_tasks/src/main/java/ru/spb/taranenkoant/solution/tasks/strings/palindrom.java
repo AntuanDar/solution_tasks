@@ -5,6 +5,12 @@ import java.util.Scanner;
 
 //Проверка что введенное слово палиндром версия сырая 25.04.2023
 //Будет доработана
+
+/**
+ * Нейминг
+ *
+ * Класс рабочий, но чтобы потренироваться можно развернуть слово используя цикл for без отдельного метода
+ * */
 public class palindrom
 {
     public static void main(String[] args) {
@@ -20,9 +26,9 @@ public class palindrom
 
         // Проверка на полиндром
         if (origString.equals(reverseString)) {
-            System.out.println("Полиндром");
+            System.out.println("Полиндром 1");
         } else {
-            System.out.println(" Не полиндром");
+            System.out.println(" Не полиндром 2");
         }
     }
 }

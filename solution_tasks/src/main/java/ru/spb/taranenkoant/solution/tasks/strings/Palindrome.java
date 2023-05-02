@@ -10,6 +10,10 @@ public class Palindrome{
         System.out.println("Введите текст");
         // String text = "Madam, I'm Adam!";
         String text = in.nextLine();
+        /**
+         * решение непонятное, по крайней мере для меня, смысл в том что ты реплейсишь любые не латинские буквы и цифры
+         * почему? а кирилица?
+         * */
         String text1 =text.replaceAll("[^a-zA-Z0-9]","").toLowerCase();
         String text2 = new StringBuilder(text1).reverse().toString();
         boolean a = text1.equals(text2);
