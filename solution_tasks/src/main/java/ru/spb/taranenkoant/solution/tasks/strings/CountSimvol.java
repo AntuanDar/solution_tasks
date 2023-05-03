@@ -10,7 +10,7 @@ import java.util.Scanner;
 /** CountSimvol - стараемся избегать опечаток, чтобы потом с ревьюверами не ругаться (CountSymbol) */
 
 /**
- * class CountSimvol
+ * class CountSimvolф
  * {
  *
  * for (int i = 0; i < str.length(); i++)

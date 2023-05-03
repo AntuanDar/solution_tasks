@@ -30,7 +30,10 @@ package ru.spb.taranenkoant.solution.tasks.strings;
 
 import java.util.Arrays;
 
-import static jdk.internal.org.jline.utils.InfoCmp.Capability.lines;
+/**
+ * это что-то левое кажется
+ * */
+//import static jdk.internal.org.jline.utils.InfoCmp.Capability.lines;
 
 /**
         Count_String count_string = new Count_String();
@@ -42,21 +45,20 @@ import static jdk.internal.org.jline.utils.InfoCmp.Capability.lines;
 
 public class CountString {
     public static void main(String[] args) {
-        /**
-         * Напиши решение здесь
-         * сначала разбей текст на отдельные строки у класса String есть такой метод найди его
-         * Дальше просто считаешь сколько получилось строк
-         * */
-
         // String str = "День и ночь а делаю домашку";
         String str = "День и ночь а делаю домашку";
+
+        /**
+         * Метод нашел правильный, но \s по regex это пробел
+         * получается ты разделил строку на слова и посчитал их количество
+         * а если мы хотим найти строки нам нужна регулярка на перенос строки
+         * и тут подвох перенос строки в unix и винде отличаются
+         * надо учесть оба варианта переноса строк
+         * */
+
         String[] words = str.split("\\s"); //splits the string based on whitespace
-
-
         System.out.println("Количество строк " + (words.length));
     }
 }
-        /**
-        Вроде теперь количество строк верно считает. Правка от 24.04.2023г.
-        * */
+
 

@@ -2,6 +2,12 @@ package ru.spb.taranenkoant.solution.tasks.strings;
 
 import java.util.Scanner;
 
+/**
+ * Найминг очень важен им класса пишется с большой буквы и никаких '-' или '_'
+ * CountS - ну и лучше давать понятное имя
+ *
+ * чет я не понял что эта утилита делает
+ * */
 public class count_S {
     public static void main(String[] args) {
         String str;
