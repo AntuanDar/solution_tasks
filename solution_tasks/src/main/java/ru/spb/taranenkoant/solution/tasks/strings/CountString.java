@@ -56,7 +56,13 @@ public class CountString {
          * надо учесть оба варианта переноса строк
          * */
 
-        String[] words = str.split("\\s"); //splits the string based on whitespace
+
+        /**
+         *
+        03.05.2023  Добавлено \r\n для переноса строки
+         * */
+
+        String[] words = str.split("\r\n"); //splits the string based on whitespace
         System.out.println("Количество строк " + (words.length));
     }
 }
