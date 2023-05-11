@@ -17,7 +17,7 @@ public class Reversestring {
          * возвращаемый результат игнорируется и это действительно так
          * new StringBuilder(day).reverse().toString(); - строчка здесь лишняя, только отъедает процессорное время
          * */
-        new StringBuilder(day).reverse().toString();
+        // new StringBuilder(day).reverse().toString();
         String result = new StringBuffer(day).reverse().toString();
 
         System.out.println(result);
