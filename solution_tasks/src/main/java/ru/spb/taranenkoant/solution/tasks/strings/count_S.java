@@ -8,7 +8,7 @@ import java.util.Scanner;
  *
  * чет я не понял что эта утилита делает
  * */
-public class count_S {
+public class Count_S {
     public static void main(String[] args) {
         String str;
         Scanner scan = new Scanner(System.in);
